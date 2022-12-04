@@ -10,10 +10,10 @@
         align-items: center;
         justify-content: center;
         padding: 8px 24px;
-        background-color: aqua;
+        background-color: #2094E6;
         color:#ffff;
         font: size 16px;
-        font-family: sans-serif;
+        font-family:'Work Sans';
         text-decoration: none;
        
 
@@ -59,7 +59,7 @@ header.main_header{
 .header_right_content nav ul a {
     font-size: 24px;
     color: #ffff;
-    font-family: sans-serif;
+    font-family:'Work Sans', sans-serif;
     font-weight: 500;
     text-decoration: none;
     transition: 2ms;
