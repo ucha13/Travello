@@ -15,9 +15,14 @@
         font: size 16px;
         font-family: sans-serif;
         text-decoration: none;
-       
-
     }
+            @media(max-width:1024px){
+        #Banner_text_button_1{
+      background-color: #053253;
+        }
+    }
+
+
     a:hover{
         color: rgb(17, 2, 1);
         
@@ -44,9 +49,21 @@ header.main_header{
 
 }
 
+
+   @media(max-width:1024px){
+    .logo{
+       margin: 0 auto;
+    }
+}
+
 .header_right_content{
     display:flex;
     align-items:center;
+}
+    @media(max-width:1024px){
+    .header_right_content{
+        display:none;
+    }
 }
 
 .header_right_content nav ul{
@@ -122,6 +139,16 @@ section.hero figure img{
     z-index: 3;
 
 }
+    @media(max-width:1024px){
+    #text{
+       margin-left:  25%;
+       margin-right: 20%;
+       margin-top: 15%;
+    }
+}
+
+
+
 h1{
  font-family:'Playfair Display';
  font-size: 60px;
@@ -129,16 +156,36 @@ h1{
  margin-bottom: 24px;
  line-height: 66px;
 }
+    @media(max-width:1024px){
+    #hero_text_head{
+        font-size: 25px;
+        margin-bottom: 10px;
+        line-height: 35px;
+    }
+}
+
+
 p{
     font-family: 'Playfair Display';
     font-size: 18px;
     margin-bottom: 24px;
     line-height: 27px;
 }
-
+    @media(max-width:1024px){
+    #hero_text_p{
+        margin-bottom: 15px;
+        line-height: 20px;
+    }
+}
 
 /*about us section*/
 
+
+
+
+
+
+@media(min-width:1024px){
 section.about_us{
     display: flex;
     position: absolute;
@@ -147,8 +194,16 @@ section.about_us{
     left: 0px;
     top: 827px;
 }
+}
+section.about_us{
+    display: flex;
+    position: absolute;
+
+}
 
 
+
+@media(min-width:1024px){
 #about_us_text{
     display: flex;
     box-sizing: border-box;
@@ -162,14 +217,21 @@ section.about_us{
     width: 486px;
     height: 385px;
     left: 832px;
-    top: 80.5px;
-    
-   
-   
+    top: 80.5px;  
+}
 }
 
+/*#about_us_text{
+    font-size: 16px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}*/
 
 
+
+@media(min-width:1024px){
 #about_us_head{
     display: flex;
     flex-direction: column;
@@ -179,9 +241,16 @@ section.about_us{
     gap: 10px;
     width: 445px;
     height: 94px;
-
-
 }
+}
+#about_us_head{
+
+  
+}
+
+
+
+@media(min-width:1024px){
 
 
 #about_us_head_1{
@@ -196,9 +265,9 @@ section.about_us{
      color: #2094E6;
 
 
-
 }
-
+}
+@media(min-width:1024px){
 #about_us_head_2{
     width: 645px;
     height: 60px;
@@ -210,12 +279,12 @@ section.about_us{
     font-size: 45px;
     line-height: 60px;
 
-
+}
 }
 
 /* ------------------------- */
 
-     
+@media(min-width:1024px){
 #image_1_group{
    position: absolute;
    width: 577px;
@@ -225,7 +294,18 @@ section.about_us{
    
 
 }
+}
+#image_1_group{
 
+    position: absolute;
+    width: 100px;
+    height: 100px;
+   justify-content: end;
+  
+}
+
+
+@media(min-width:1024px){
 #image_2{
     position: absolute;
     width: 386px;
@@ -235,4 +315,6 @@ section.about_us{
 
 
 }
+}
+
 
